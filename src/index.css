@@ -1,0 +1,48 @@
+:root {
+  font-family: sans-serif;
+  line-height: 1.5;
+  --background-color: #ffffff;
+  --text-color: #121212;
+  --card-bg: #f5f5f5;
+  --input-bg: #ffffff;
+  --input-border: #cccccc;
+
+  --accent-color: #39ff14; /* Neon Green */
+  --button-bg: #39ff14;
+  --button-hover-bg: #2bd110;
+  --button-group-bg: #ffffff;
+
+  /* Dark mode colors */
+  --dark-background-color: #121212;
+  --dark-text-color: #e0e0e0;
+  --dark-card-bg: #222222;
+  --dark-input-bg: #333333;
+  --dark-input-border: #444444;
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: var(--dark-background-color);
+    --text-color: var(--dark-text-color);
+    --card-bg: var(--dark-card-bg);
+    --input-bg: var(--dark-input-bg);
+    --input-border: var(--dark-input-border);
+    --button-bg: var(--dark-background-bg);
+    --button-group-bg: var(--dark-background-bg);
+  }
+} */

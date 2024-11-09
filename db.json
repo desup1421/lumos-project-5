@@ -1,0 +1,19 @@
+{
+  "activities": [
+    {
+      "id": "1",
+      "title": "Workout",
+      "description": "Complete a 30-minute workout session"
+    },
+    {
+      "id": "5e1a",
+      "title": "Learning react",
+      "description": "Learning react for 2 hours"
+    },
+    {
+      "id": "1f65",
+      "title": "Add new activity",
+      "description": "Do something"
+    }
+  ]
+}

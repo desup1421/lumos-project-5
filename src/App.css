@@ -1,0 +1,192 @@
+#root {
+  height: 100lvh;
+  width: 100%;
+  max-width: 960px;
+  background-color: var(--background-color);;
+  color: var(--text-color);
+}
+
+.main {
+  width: 100%;
+  padding: 10px;
+}
+
+th,
+td {
+  border-bottom: 1px solid var(--input-border);
+  padding: 10px;
+  text-align: left;
+}
+table {
+  width: 100%;
+  border: 1px solid var(--input-border);
+  border-radius: 5px;
+  border-collapse: collapse;
+}
+
+thead > tr:last-child > th {
+  border-bottom: 2px solid var(--input-border);
+}
+
+.student-detail-table {
+  border: none;
+  table-layout: fixed;
+  width: 100%;
+  max-width: 100%;
+  th, td {
+    border: none;
+    word-wrap: break-word;
+  }
+}
+
+.btn {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.lang-btn {
+  margin: 10px 0;
+  
+}
+.btn:disabled {
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+.btn-group {
+  display: flex;
+  gap: 2px;
+}
+.btn-primary {
+  background-color: var(--button-bg);
+  color: var(--text-color);
+  border: 1px solid var(--accent-color);
+}
+.btn-primary:hover {
+  background-color: var(--button-hover-bg);
+}
+
+.btn-outline-primary {
+  background-color: var(--button-group-bg);
+  color: green;
+  border: 1px solid green;
+}
+.btn-outline-primary:hover {
+  background-color: green;
+  color: var(--button-group-bg);
+}
+
+.btn-outline-warning {
+  background-color: var(--button-group-bg);
+  color: orange;
+  border: 1px solid orange;
+}
+.btn-outline-warning:hover {
+  background-color: orange;
+  color: var(--button-group-bg);
+}
+
+.btn-outline-danger {
+  background-color: var(--button-group-bg);
+  color: red;
+  border: 1px solid red;
+}
+.btn-outline-danger:hover {
+  background-color: red;
+  color: var(--button-group-bg);
+}
+
+.btn-right {
+  float: right;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--input-border);
+  background-color: var(--input-bg);
+  color: var(--text-color);
+  border-radius: 5px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.back-btn-container {
+  width: 100%;
+  max-width: 540px;
+}
+.card {
+  width: 100%;
+  max-width: 540px;
+  background-color: var(--card-bg);
+  border: 1px solid var(--input-border);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  overflow-x: auto;
+}
+
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--input-border);
+  border-radius: 5px;
+  outline: none;
+}
+
+form {
+  width: 100%;
+}
+
+form label {
+  display: block;
+  margin: 10px 0;
+}
+
+form {
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--input-border);
+    border-radius: 5px;
+    outline: none;
+    accent-color: var(--accent-color);
+  }
+  input:active {
+    outline: none;
+  }
+  input.is-invalid, select.is-invalid, textarea.is-invalid {
+    border: 1px solid red;
+  }
+  input.is-valid, select.is-valid, textarea.is-valid {
+    border: 1px solid green;
+  }
+}
+
+.radio-group {
+  display: flex;
+  gap: 20px;
+  label,
+  input {
+    width: auto;
+    display: inline;
+  }
+}
+
+form button.btn {
+  display: block;
+  margin: 20px auto;
+  width: 80%;
+  padding: 10px;
+}
